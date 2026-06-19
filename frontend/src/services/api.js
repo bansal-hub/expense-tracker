@@ -1,7 +1,11 @@
 // services/api.js
 // Centralized API service - all fetch calls to the backend go through here
 
-const API_BASE = '/api';
+// This checks if a live Railway URL exists in your environment variables. 
+// If it does, it uses it. If not, it falls back to the local development path.
+const API_BASE = process.env.REACT_APP_API_URL 
+  ? `${process.env.REACT_APP_API_URL}/api` 
+  : '/api';
 
 // ─── EXPENSES ─────────────────────────────────────────────────────────────────
 
