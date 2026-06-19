@@ -13,11 +13,7 @@ const PORT = process.env.PORT || 5000;
 // ─── MIDDLEWARE ───────────────────────────────────────────────────────────────
 
 // Allow requests from our React frontend (running on port 3000)
-app.use(cors({
-  origin: 'http://localhost:3000',
-  methods: ['GET', 'POST', 'DELETE'],
-  allowedHeaders: ['Content-Type']
-}));
+app.use(cors());
 
 // Parse incoming JSON request bodies
 app.use(express.json());
