@@ -1,0 +1,13 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment variables (never commit these!)
+.env
+
+# React build output
+frontend/build/
+
+# OS files
+.DS_Store
+Thumbs.db

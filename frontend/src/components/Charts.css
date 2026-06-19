@@ -1,0 +1,66 @@
+/* Charts.css - Shared styles for Pie and Bar charts */
+
+.chart-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  border: 1px solid #f0f0f0;
+}
+
+.chart-card__title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 0.2rem 0;
+}
+
+.chart-card__sub {
+  font-size: 0.78rem;
+  color: #9e9e9e;
+  margin: 0 0 1rem 0;
+}
+
+.chart-empty {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bdbdbd;
+  font-size: 0.9rem;
+}
+
+/* Custom tooltip */
+.chart-tooltip {
+  background: #1a1a2e;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.82rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  min-width: 130px;
+}
+
+.chart-tooltip__label {
+  font-weight: 600;
+  margin: 0 0 0.2rem 0;
+  color: #b0bec5;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.chart-tooltip__value {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 0.15rem 0;
+  color: #ffffff;
+}
+
+.chart-tooltip__pct {
+  font-size: 0.75rem;
+  color: #90a4ae;
+  margin: 0;
+}
