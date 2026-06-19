@@ -1,7 +1,12 @@
 # 💰 Smart Expense Tracker
 
 A beginner-friendly full-stack expense tracking app built with **React**, **Node.js**, **Express.js**, and **MySQL**.
+## 🌐 Live Demo
+You can access the live version of this project here: **[https://expense-tracker-tawny.beta.vercel.app](https://expense-tracker-tawny.beta.vercel.app)**
 
+*Note: This project is hosted on free-tier cloud services. The backend may take 30–50 seconds to "wake up" after a period of inactivity.*
+
+---
 ---
 
 ## 📁 Project Structure
@@ -46,6 +51,8 @@ expense-tracker/
 ```
 
 ---
+### 💻 Local Development
+If you wish to contribute to the project or run it locally, follow these steps:
 
 ## 🛠️ Prerequisites
 
